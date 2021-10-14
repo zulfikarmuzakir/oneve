@@ -1,0 +1,439 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn{
+    border: none;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+.navbar{
+    min-height: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 0px !important;
+    background-color: white;
+}
+
+.navbar .container{
+    width: 100%;
+}
+
+.navbar .container .row{
+    width: 100%;
+}
+
+.navbar .container .row .col-3 h3{
+    font-weight: 700;
+    margin: 0px;
+}
+
+.navbar .container{
+    padding: 0px;
+}
+
+.navbar .container .row .col-3{
+    padding: 0px 10px;
+}
+
+.navbar h3{
+    font-size: 24px;
+    font-family: 'Nova Square', cursive !important;
+}
+
+.form-control{
+    border: 0px;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.cari-event{
+    color: #3D8AED !important;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.cari-event:hover{
+    background: #f5f5f5;
+}
+
+.container-search{
+    border: 0px !important;
+}
+
+.form-control .form-search{
+    background-color: #F1F1F1;
+    width: 100%;
+    border-radius: 8px;
+    border: 0px;
+    padding: 8px 40px 8px 16px;
+    outline: none;
+}
+
+.form-control button{
+    padding: 0px;
+    outline: none;
+    margin-left: -35px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.btn-daftar{
+    background-color: #3D8AED !important;
+    border-radius: 8px !important;
+    color: white;
+    padding: 8px !important;
+    margin-right: 4px;
+    width: 72px;
+}
+.btn-masuk{
+    background: #FFFFFF !important;
+    border: 1px solid #3D8AED !important;
+    border-radius: 8px !important;
+    color: #3D8AED !important;
+    padding: 8px 6px !important;
+    margin-left: 4px;
+}
+
+.btn-masuk:hover{
+    background: #f5f5f5 !important;
+    border: 1px solid #3D8AED;
+    border-radius: 8px;
+    color: #3D8AED;
+}
+
+.btn-masuk:active{
+    outline: none;
+    background: #f5f5f5;
+}
+
+.link-daftar{
+    color: #3D8AED;
+    text-decoration: underline;
+}
+
+.btn-masuk svg{
+    margin-left: 5px;
+    height: 18px;
+    width: 20px;
+    font-weight: bold;
+}
+
+.btn-navbar{
+    height: 64px;
+    color: #797979 !important;
+    text-align: center;
+    align-items: center;
+    width: 152px;
+    padding: 0px 12px !important;
+    margin-right: 14px;
+}
+
+.btn-navbar p{
+    margin: 0px;
+    font-size: 16px;
+}
+
+.active{
+    border-bottom: 4px solid #3D8AED !important;
+    color: #3D8AED !important;
+    font-weight: 600px !important;
+}
+
+.active p{
+    color: #3D8AED !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .content{
+      padding: 44px 80px !important;
+      background: #FCFCFC;
+  }
+
+  .wrapper-data-personal{
+      width: 656px !important;
+  }
+
+  .data-personal-tiket{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 44px;
+    padding: 42px !important;
+    width: 100% !important;
+  }
+
+  .data-personal-tiket h4{
+      margin-bottom: 16px;
+  }
+
+  .nomor-telepon {
+    -moz-appearance: textfield;
+  }
+  .nomor-telepon::-webkit-inner-spin-button {
+    display: none;
+  }
+  .nomor-telepon::-webkit-outer-spin-button,
+  .nomor-telepon::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .nomor-pemesan{
+      border-radius: 8px;
+      background: #F1F1F1;
+      padding: 16px;
+      font-size: 14px;
+      font-weight: 700 !important;
+      margin: 0px !important;
+  }
+
+  .pemesan input{
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #797979;
+      padding: 8px 16px;
+      margin-top: 24px;
+  }
+
+  .detail-pemesanan{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px !important;
+    width: 412px !important;
+  }
+
+  .detail-pemesanan h4{
+      margin-bottom: 16px;
+  }
+
+  .judul-event-pembayaran{
+      margin-left: 16px !important;
+      font-size: 18px ;
+      color: black !important;
+  }
+
+  .pemesan{
+      margin-bottom: 42px;
+  }
+
+  .email-tip{
+      color: #3D8AED !important;
+      font-size: 12px;
+      margin: 4px 0px 0px 0px;
+  }
+
+  .wrapper-subtotal{
+      margin-bottom: 48px;
+  }
+
+  .banner-container{
+      width: 96px !important;
+      height: 96px !important;
+      border-radius: 8px;
+  }
+
+  .banner-container img{
+    border-radius: 8px;
+    object-fit: cover !important;
+    width: 96px;
+    height: 96px;
+  }
+
+  hr{
+      margin: 24px 0px !important;
+      color: #F1F1F1 !important;
+       background: #F1F1F1 !important;
+  }
+
+  .judul-tiket-pembayaran{
+      color: black !important;
+      font-size: 16px;
+      margin-bottom: 16px !important;
+  }
+
+  .col-8 i{
+      margin-right: 16px;
+  }
+
+  .col-8 i,p{
+      color: #797979 !important;
+  }
+
+  .tanggal-waktu{
+      font-size: 12px;
+      margin-bottom: 8px !important;
+  }
+
+  .tanggal-waktu i{
+      font-size: 18px;
+  }
+
+  .harga{
+      color: #797979;
+      font-size: 16px;
+  }
+
+  .tiket{
+      margin-bottom: 16px;
+  }
+
+  .hr-total{
+      margin: 0px 0px 24px !important;
+  }
+
+  .total-harga{
+      font-size: 24px;
+      color: #3D8AED !important;
+  }
+
+  .row-total h6{
+      margin: 0px;
+  }
+
+  .row-total .col-8{
+        padding-right: 0px !important;
+  }
+
+  .row-total .col-8 h6{
+      margin: 0px !important;
+  }
+
+  .btn-lanjut{
+      background-color: #3D8AED !important;
+      padding: 8px !important;
+      border-radius: 8px;
+      width: 280px !important;
+      font-size: 24px !important;
+  }
+
+footer{
+    width: 100%;
+    height: 96px;
+    background-color: #F1F1F1;
+    margin-top: 20px !important;
+}
+
+footer .col{
+    height: 96px;
+}
+
+.jawaban-form{
+    padding-top: 24px;
+}
+
+.jawaban p{
+    color: black !important;
+}
+
+.sub-total{
+    background: #F1F1F1;
+    height: 72px;
+    padding: 16px 64px;
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.sub-total .col{
+    height: 48px !important;
+}
+
+.sub-total h4,p{
+    margin: 0px !important;
+}
+
+.sub-total p{
+    font-size: 18px;
+}
+
+.sub-total .rp{
+    margin-top: 5px !important;
+}
+
+.sub-total input{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    border: 0px;
+    padding: 0px 20px 0px 5px;
+    background: transparent;
+    color: black;
+    width: 200px;
+    
+}
+
+.sub-total input:focus{
+    outline: none;
+}
+
+.button-beli{
+    padding: 8px !important;
+    width: 163px;
+    font-size: 16px;
+    background: #3D8AED !important;
+    border-radius: 8px !important;
+    color: white !important;
+}
+
+.input-informasi-pemesan{
+    margin-top: 24px;
+}
+
+.input-informasi-pemesan i{
+    margin-left: -32px;
+    visibility: hidden;
+}
+
+.input-informasi-pemesan.error{
+    display: flex;
+    align-items: center;
+}
+
+.input-informasi-pemesan.error input{
+    border: 1px solid #ED3D3D;
+}
+
+.input-informasi-pemesan.error i{
+    color: #ED3D3D;
+    visibility: visible;
+}
+
+.input-informasi-pemesan.success{
+    display: flex;
+    align-items: center;
+}
+
+.input-informasi-pemesan.success input{
+   border: 0px;
+}
+
+.input-informasi-pemesan.success i{
+    color: #ED3D3D;
+    visibility: hidden;
+}
+
+.form-informasi-pemesan{
+    margin: 0px !important;
+}
+

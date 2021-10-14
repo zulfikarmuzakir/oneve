@@ -1,0 +1,176 @@
+html, body {
+    height:100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn{
+    border: none;
+}
+
+
+.container-fluid{
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+.col{
+    padding: 0px;
+}
+
+.logo h1{
+    font-weight: bold;
+    padding: 32px;
+    padding-left: 80px;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.col-left{
+    padding: 0px;
+}
+
+.col-right{
+    background: url('/src/img/login-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    padding-right: 0px;
+}
+
+.illustrasi{
+    width: 500px;
+}
+
+.form{
+    margin-left: 35%;
+    padding: 32px 40px 40px 40px;
+    background: white;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.form h4{
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0px;
+}
+
+.form-control{
+    border: 0px;
+    padding: 8px 0px;
+}
+
+.form-email{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form-password{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form .link-password{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.form-control .btn-primary{
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.atau-menggunakan{
+    padding: 16px 0px;
+}
+
+.form-control .col-6{
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.form-control .col-6 p{
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    color: #797979;
+}
+
+.form-control .col-3 hr{
+    border-top: 3px solid#797979;
+}
+
+.form-control .btn-google{
+    padding: 0px;
+    height: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+/* .btn-google img{
+    position: absolute;
+    left: 808px;
+} */
+
+.daftar{
+    padding: 16px 0px 0px 0px;
+}
+
+.daftar p{
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+

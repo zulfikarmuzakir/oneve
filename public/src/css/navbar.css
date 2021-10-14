@@ -1,0 +1,242 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+h6{
+    font-weight: 400;
+}
+
+.btn{
+    border: none;
+}
+
+.navbar{
+    min-height: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 16px 44px;
+    margin: 0px;
+}
+
+@media (min-width: 1365px) {
+    .navbar{
+        padding: 16px 56px !important;
+    }
+}
+
+
+.container-navbar{
+    margin: 0px !important;
+}
+
+.navbar .dropdown-menu-right { 
+    right: 0; 
+    left: auto; 
+}
+
+.navbar .container{
+    width: 100%;
+}
+
+.navbar .container .row{
+    width: 100%;
+}
+
+.navbar .container .row .col-3 h3{
+    font-weight: 700;
+    margin: 0px;
+}
+
+.navbar .container{
+    padding: 0px;
+}
+
+.navbar .container .row .col-3{
+    padding: 0px 10px;
+}
+
+.navbar h3{
+    font-size: 24px;
+    font-family: 'Nova Square', cursive !important;
+}
+
+.form-control{
+    border: 0px;
+}
+
+.form-navbar-search .form-search{
+    background-color: #F1F1F1;
+    width: 100% !important;
+    border-radius: 8px;
+    border: 0px;
+    padding: 8px 40px 8px 16px;
+    outline: none;
+}
+
+.form-navbar-search button{
+    padding: 0px;
+    outline: none;
+    margin-left: -35px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.btn-daftar{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+    margin-right: 8px;
+    width: 72px !important;
+}
+
+.link-daftar{
+    color: #3D8AED;
+    text-decoration: underline;
+}
+
+.btn-masuk{
+    background: #FFFFFF;
+    border: 1px solid #3D8AED;
+    border-radius: 8px;
+    color: #3D8AED;
+    padding: 8px;
+    margin-left: 8px;
+    width: 72px !important;
+}
+
+.btn-masuk:hover{
+    background: #f5f5f5;
+    color: #3D8AED;
+}
+
+.btn-masuk:active{
+    outline: none;
+    background: #f5f5f5;
+}
+
+.btn-premium{
+    background-color: #FFD700;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 0px 8px;
+    padding: 8px 16px;
+    width: 64px;
+    padding: 4px 0px;
+    
+}
+
+.btn-premium:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-buat{
+    border-radius: 8px;
+    padding: 6px 16px !important; 
+}
+
+.btn-buat:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-buat:hover{
+    background-color: #ebebeb;
+}
+
+.cari-event{
+    font-size: 16px;
+    text-decoration: none;
+    color: #3D8AED;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.cari-event:hover{
+    background-color: #ebebeb;
+    color: #3D8AED;
+}
+
+.dd-account img{
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.dd-account{
+    margin-bottom: 24px;
+    padding: 0px 16px 0px 16px !important;
+}
+
+
+.nama-user{
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.dropdown-account{
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1 !important;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.25) !important;
+    border-radius: 8px !important;
+    width: 200px;
+    padding: 16px 0px 19px 0px;
+}
+
+.dropdown-account .dropdown-item{
+    color: black;
+    font-size: 14px;
+    padding: 5px 16px;
+}
+
+.dropdown-account .dropdown-item:focus{
+    background: white;
+    color: #3D8AED;
+}
+
+.dropdown-account .dropdown-item i:focus{
+    color: #3D8AED !important; 
+}
+
+.dropdown-account .dropdown-item i{
+    color: black;
+    font-size: 18px !important;
+    margin-right: 18px;
+}
+
+.account{
+    margin-left: 8px;
+}
+
+
+.account:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.account img{
+    border-radius: 60px;
+    object-fit: cover;
+}

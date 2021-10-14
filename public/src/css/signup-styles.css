@@ -1,0 +1,219 @@
+html, body {
+    height:100%;
+    background-color: #EAF2FF !important;
+    background: url('/src/img/signup-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+i{
+    color: #797979;
+
+}
+
+.btn{
+    border: none;
+}
+
+
+.container-fluid{
+    padding: 0px;
+}
+
+.navbar{
+    padding: 0px;
+    height: 80px;
+}
+
+.navbar h1{
+    padding: 32px;
+    padding-left: 80px;
+    font-size: 32px;
+}
+
+.navbar .container{
+    margin: 20px 0px;
+}
+
+.navbar h3{
+    font-size: 24px;
+    font-family: 'Nova Square', cursive !important;
+}
+
+.form-seller{
+    margin-bottom: 17px;
+    top: 80px;
+    padding: 40px;
+    background: white;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.form-seller h4{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.form-buyer{
+    margin-bottom: 65px;
+    top: 80px;
+    padding: 40px;
+    background: white;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.5);
+    /* position: absolute; */
+}
+
+.form-buyer h4{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.form-control{
+    border: 0px;
+    padding: 8px 0px;
+    background-color: transparent;
+}
+
+.form-email{
+    box-shadow: inset 0px 4px 4px rgba(224, 224, 224, 0.3);
+    outline-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 32px;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-nama-instansi{
+    box-shadow: inset 0px 4px 4px rgba(224, 224, 224, 0.3);
+    outline-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 32px;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-nama{
+    box-shadow: inset 0px 4px 4px rgba(224, 224, 224, 0.3);
+    outline-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 32px;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-password{
+    box-shadow: inset 0px 4px 4px rgba(224, 224, 224, 0.3);
+    outline-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 32px;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.eye{
+    position: absolute;
+    margin-top: 4px;
+}
+
+#hide1{
+    display: none;
+}
+
+.button-container{
+    padding-top: 8px;
+}
+
+.form-control .btn-primary{
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.form-control .col-6{
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.form-control .col-6 p{
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    color: #797979;
+}
+
+.form-control .col-3 hr{
+    border-top: 3px solid#797979;
+}
+
+.form-control .btn-google{
+    box-shadow: inset 0px 4px 4px rgba(224, 224, 224, 0.3);
+    padding: 0px;
+    height: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* .btn-google img{
+    position: absolute;
+    left: 496px;
+} */
+
+.daftar{
+    padding: 16px 0px 0px 0px;
+}
+
+.daftar p{
+    text-align: center;
+    margin: 0px;
+}

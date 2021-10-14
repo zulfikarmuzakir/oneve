@@ -1,0 +1,1831 @@
+html,body{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif !important ;
+    font-weight: 700 !important;
+}
+
+h3{
+    margin-bottom: 0px !important;
+}
+
+label{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+button{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logo{
+    font-weight: 700;
+}
+
+.btn{
+    border: none;
+}
+
+.dropdown-account{
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1 !important;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.25) !important;
+    border-radius: 8px !important;
+    width: 200px;
+    padding: 16px 0px 19px 0px;
+}
+
+.dropdown-account .dropdown-item{
+    color: black;
+    font-size: 14px;
+    padding: 5px 16px;
+}
+
+.dropdown-account .dropdown-item:focus{
+    background: white;
+    color: #3D8AED;
+}
+
+.dropdown-account .dropdown-item i:focus{
+    color: #3D8AED !important; 
+}
+
+.dropdown-account .dropdown-item i{
+    color: black;
+    font-size: 18px !important;
+    margin-right: 18px;
+}
+
+.account{
+    margin-left: 8px;
+}
+
+
+.account:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.account img{
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.navbar .dropdown-menu-right { 
+    right: 0; 
+    left: auto; 
+}
+
+.dd-account img{
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.dd-account{
+    margin-bottom: 24px;
+    padding: 0px 16px 0px 16px !important;
+}
+
+.nama-user{
+    margin-left: 16px !important;
+    font-size: 14px;
+}
+
+.navbar{
+    min-height: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100% !important;
+    padding: 16px 44px !important;
+    margin: 0px;
+}
+
+.navbar .container{
+    width: 100%;
+}
+
+.navbar .container .row{
+    width: 100%;
+}
+
+.navbar .container .row .col-3 h3{
+    font-weight: 700;
+    margin: 0px;
+}
+
+.navbar a{
+    text-decoration: none !important;
+}
+
+.container-navbar{
+    margin: 0px !important;
+}
+
+.logo{
+    font-size: 24px;
+    font-family: 'Nova Square', cursive !important;
+}
+
+.navbar .container{
+    padding: 0px;
+}
+
+.navbar .container .row .col-3{
+    padding: 0px 10px;
+}
+
+.cari-event{
+    color: #3D8AED;
+    border-radius: 8px;
+}
+
+.cari-event:hover{
+    background-color: #e8e8e8;
+}
+
+.form-control{
+    border: 0px;
+    padding: 8px !important;
+}
+
+.form-navbar-search .form-search{
+    background-color: #F1F1F1;
+    width: 560px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 8px 40px 8px 16px;
+    outline: none;
+}
+
+.form-navbar-search button{
+    padding: 0px;
+    outline: none;
+    margin-left: -35px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.btn-masuk{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 16px 4px;
+}
+
+.link-daftar{
+    color: #3D8AED;
+    text-decoration: underline;
+}
+
+.btn-masuk svg{
+    margin-left: 5px;
+    height: 18px;
+    width: 20px;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+.modal-content{
+    padding: 32px 40px 40px 40px;
+    width: 416px;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.form{
+    padding: 0px;
+}
+
+.form-control{
+    border: 0px;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.header{
+    padding-top: 0px;
+    padding-bottom: 24px;
+}
+
+.form-nama{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form-email{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form-password{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form .link-password{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.form-control .masuk{
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.masuk{
+    margin: 8px 0px 16px;
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ .daftar{
+    margin: 24px 0px 16px;
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.atau-menggunakan .col-6 p{
+    margin: 0px;
+    color: #797979;
+}
+
+.garis{
+    padding: 0px !important;
+}
+
+.btn-google{
+    margin: 16px 0px 14px;
+    padding: 0px;
+    height: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.google-masuk{
+    margin: 16px 0px 32px;
+    padding: 0px;
+    height: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.container-daftar{
+    padding: 0px;
+}
+
+.container-logo{
+    padding: 44px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.container-logo img{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.profile{
+    padding: 24px;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.25);
+    margin: 0px !important;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.profile img{
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 32px;
+}
+
+.logo-seller{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 32px;
+    background-color: white;
+    object-fit: contain;
+    border-radius: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+.nama-seller{
+    margin-bottom: 0px;
+    margin-left: 32px;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.container-filter{
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    background-color: white;
+    padding: 16px 20px;
+    margin-bottom: 40px;
+}
+
+.form-filter{
+    padding: 0px;
+}
+
+.dropdown-button{
+    border-radius: 8px;
+    color: #797979;
+    border: 2px solid #F1F1F1 !important;
+    margin-bottom: 16px;
+}
+
+span{
+    color: #797979;
+    margin-left: 10px;
+}
+
+.sort{
+    margin: 0px;
+    color: #797979;
+}
+
+.dropdown-menu{
+    border-radius: 8px;
+}
+
+.dropdown-item{
+    color: #797979;
+}
+
+.dropdown-item:hover{
+    background: rgba(61, 138, 237, 0.15);
+}
+
+.col-9{
+    padding: 0px;
+}
+
+.container-card{
+    padding: 0px;
+}
+
+.col-card{
+    padding: 0px;
+}
+
+.con-card{
+    margin-bottom: 24px;
+}
+
+.card{
+    margin-bottom: 32px;
+    width: 256px;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.25);
+}
+
+.card img{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.card-text svg{
+    margin-right: 10px;
+}
+
+.card-text p{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #797979;
+}
+
+.card-button{
+    margin-top: 32px;
+}
+
+.btn-beli{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    width: 55%;
+}
+
+.fluid-recent{
+    background-color: #EFF5FF;
+}
+
+.recent-event-container{
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+.recent-event-container h3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.recent-event-container .row .col-3{
+    padding: 0px;
+    margin-bottom: 32px;
+}
+
+.container-pagination{
+    margin-top: 16px !important;
+    margin-bottom: 48px !important;
+}
+
+.page-item{
+    margin: 0px 4px;
+}
+
+.page-item a{
+    color: #3D8AED;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.15);
+    border-radius: 8px !important;
+}
+
+footer{
+    width: 100%;
+    height: 96px;
+    background-color: #F1F1F1;
+}
+
+footer .col{
+    height: 96px;
+}
+
+.account img{
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.container-filter-2{
+    margin-top: 24px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    background-color: white;
+    padding: 16px 20px;
+    margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+h6{
+    font-weight: 400;
+}
+
+.btn{
+    border: none;
+}
+
+.navbar{
+    min-height: 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.navbar .container{
+    width: 100%;
+}
+
+.navbar .container .row{
+    width: 100%;
+}
+
+.navbar .container .row .col-3 h3{
+    font-weight: 700;
+    margin: 0px;
+}
+
+.navbar .container{
+    padding: 0px;
+}
+
+.navbar .container .row .col-3{
+    padding: 0px 10px;
+}
+
+.form-control{
+    border: 0px;
+}
+
+.form-control .form-search{
+    background-color: #F1F1F1;
+    width: 100%;
+    border-radius: 8px;
+    border: 0px;
+    padding: 8px 40px 8px 16px;
+    outline: none;
+}
+
+.form-control button{
+    padding: 0px;
+    outline: none;
+    margin-left: -35px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.btn-masuk{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    color: white;
+    padding: 4px 16px;
+    margin-right: 8px;
+}
+.btn-daftar{
+    background: #FFFFFF;
+    border: 1px solid #3D8AED;
+    border-radius: 8px;
+    color: #3D8AED;
+    padding: 4px 16px;
+    margin-left: 8px;
+}
+
+.btn-daftar:hover{
+    background: #f5f5f5;
+    border: 1px solid #3D8AED;
+    border-radius: 8px;
+    color: #3D8AED;
+    padding: 4px 16px;
+    margin-left: 8px;
+}
+
+.btn-daftar:active{
+    outline: none;
+    background: #f5f5f5;
+}
+
+.container-caraousel{
+    padding: 44px;
+}
+
+.container-home{
+    padding: 0px;
+    margin: 108px 0px;
+    height: 288px;
+    background: rgba(61, 138, 237, 0.4);
+}
+
+.best-seller-container{
+    padding: 0px;
+    margin: 0px 44px !important;
+}
+
+.best-seller-container h3{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.best-seller-container .row .col-3{
+    padding: 0px !important;
+    margin-bottom: 32px;
+}
+
+.best-seller-container .row .col{
+    padding: 0px;
+}
+
+.card{
+    width: 280px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img{
+    border-radius: 8px 8px 0px 0px;
+    height: 160px;
+}
+
+.card-title{
+    margin-bottom: 16px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 24px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.card-text svg{
+    margin-right: 10px;
+    color: #3D8AED !important;
+}
+
+.card-text p{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #797979;
+}
+
+.card-body p{
+    margin-bottom: 8px !important;
+}
+
+.card-button{
+    margin-top: 16px;
+}
+
+.btn-beli{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    width: 55%;
+}
+
+.fluid-recent{
+    /* background-color: #EFF5FF; */
+    padding: 0px;
+}
+
+.recent-event-container{
+    padding:0px;
+    margin: 0px 44px;
+}
+
+.recent-event-container h3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.recent-event-container .row .col-3{
+    padding: 0px !important;
+    margin-bottom: 32px;
+}
+
+footer{
+    width: 100%;
+    height: 96px;
+    background-color: #F1F1F1;
+}
+
+footer .col{
+    height: 96px;
+}
+
+.account{
+    margin-left: 8px;
+}
+
+.account img{
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+/* Modal */
+
+
+
+.form{
+    padding: 0px;
+}
+
+.form-control{
+    border: 0px;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.header{
+    padding-top: 0px;
+    padding-bottom: 24px;
+}
+
+.form-nama{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form-email{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form-password{
+    outline-style: none;
+    height: 32px;
+    background: #F1F1F1;
+    border: 0px;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.form .link-password{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.form-control .masuk{
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+.masuk{
+    margin: 8px 0px 16px;
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ .daftar{
+    margin: 24px 0px 16px;
+    height: 32px;
+    width: 100%;
+    border-radius: 8px;
+    background: #3D8AED;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.atau-menggunakan .col-6 p{
+    margin: 0px;
+    color: #797979;
+}
+
+.garis{
+    padding: 0px !important;
+}
+
+.btn-google{
+    margin: 16px 0px 14px;
+    padding: 0px;
+    height: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.google-masuk{
+    margin: 16px 0px 32px;
+    padding: 0px;
+    height: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.1);
+}
+
+.container-daftar{
+    padding: 0px;
+}
+
+.premium{
+    position: relative;
+    margin-top: -40px;
+    background: #FFD700;
+    justify-content: center;
+    height: 40px;
+    font-size: 16px;
+}
+
+.premium svg{
+    margin-right: 3px;
+}
+
+.premium p{
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.btn-premium{
+    cursor: default;
+    background-color: #FFD700;
+    border-radius: 8px;
+    font-size: 12px;
+    margin: 0px 16px;
+    padding: 8px 16px;
+    width: 64px;
+    padding: 4px 0px;
+    
+}
+
+.btn-premium:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-buat{
+    border-radius: 8px;
+    padding: 6px 16px;
+}
+
+.btn-buat:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-buat:hover{
+    background-color: #ebebeb;
+}
+
+.banner-upload .banner-edit {
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 10px;
+}
+.banner-upload .banner-edit input {
+    display: none;
+  }
+.banner-upload .banner-edit input + label {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+.banner-upload .banner-edit input + label:hover {
+    background: #f1f1f1;
+    border-color: #d6d6d6;
+}
+.banner-upload .banner-edit input + label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+.banner-upload .banner-preview {
+    margin-top: 44px;
+    padding: 0px;
+    width: 1192px;
+    border-radius: 8px 8px 0px 0px;
+}
+.banner-upload .banner-preview > div {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal-upload{
+    width: 1192px !important;
+    padding: 44px !important;
+    border-radius: 8px;
+
+}
+
+.close{
+    padding: 0px !important;
+}
+
+/* .modal-body{
+    padding: 16px 0px 0px 0px;
+}
+
+.modal-dialog{
+   width: 100%;
+   height: 50%;
+   padding: 44px;
+} */
+
+.img-container{
+    width: 660px;
+    height: 244px;
+    margin: 0px !important;
+}
+
+#imagePreview{
+    width: 1192px;
+    height: 400px;
+   
+}
+
+.container-imagepreview{
+    background: url('/src/img/Frame 38.png');
+}
+
+.imagecrop{
+    padding: 44px !important;
+}
+
+/* .cropper-container{
+    width: 1192px !important;
+} */
+
+.cropper-view-box{
+    margin: 0px;
+}
+
+.cropper-face{
+    margin: 0px;
+}
+
+.line-w{
+    margin: 0px !important;
+}
+
+.dashed-h{
+    margin: 0px;
+}
+
+.point-nw{
+    margin: 0px;
+}
+
+.point-sw{
+    margin: 0px;
+}
+
+.point-w{
+    margin: 0px;
+}
+
+.add-banner{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.10);
+    transition: .5s ease;
+    opacity:0;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay i{
+    font-size: 96px;
+}
+
+.overlay h4{
+    font-size: 24px;
+    margin: 32px 0px 0px 0px;
+}
+
+.overlay p{
+    margin: 8px 0px 0px 0px;
+}
+
+.modal h4{
+    text-align: center;
+    margin: 0px;
+}
+
+.modal p{
+    text-align: center;
+    margin-bottom: 16px;
+    color: #797979;
+}
+
+.row-footer{
+    width: 100%;
+    padding-top: 44px;
+    margin: 0px !important;
+}
+
+.row-footer .col-6{
+    padding: 0px;
+}
+
+.modal-upload{
+    background-color: white;
+    background: linear-gradient(180deg, #CCE0FF 0%, #FFFFFF 100%);
+}
+
+.crop{
+    width: 184px;
+    background-color: #3D8AED;
+}
+
+.crop-close{
+    width: 184px;
+}
+
+.btn-create-event{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;    
+    margin: 107px 0px;
+    width: 232px;    
+    color: white !important;
+}
+
+.btn-create-event .edit{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.container3{
+    box-shadow: 0px 4px 4px rgba(121, 121, 121, 0.25);
+    border-radius: 0px 0px 8px 8px;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    height: 238px !important;
+}
+
+.container3 .row-3{
+    padding: 24px 24px;
+    height: 238px !important;
+}
+
+.container3 .col{
+    height: 200px !important;
+}
+
+.judul-event{
+    margin-bottom: 14px !important;
+}
+
+.row-4{
+    color: #797979;
+    display: flex !important;
+}
+
+.banner-upload .banner-preview-profile {
+    margin: 0px !important; 
+    padding: 0px;
+    width: 1192px;
+    border-radius: 8px 8px 0px 0px;
+}
+.banner-upload .banner-preview-profile > div {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-imagepreview-profile{
+    background: url('images/profile/blank-profile-picture-973460_1280.png')
+}
+
+.col-row-4{
+    margin-top: 4px;
+    display: flex !important;
+    color: #797979 ;
+}
+
+.col-row-4 p{
+    margin: 0px;
+}
+
+.col-row-4 .kategori{
+    margin: 0px 12px 0px 0px;
+    padding: 5px 15px;
+    background: #F1F1F1;
+    border-radius: 8px;
+    color: #3D3D3D;
+}
+.col-row-4 .tanggal,.waktu{
+    margin: 0px 12px;
+    align-items: center;
+}
+
+.pp-user{
+    width: 64px;
+    height: 64px;
+    border-radius: 368px;
+}
+
+.nama-user{
+    margin-left: 32px;
+    margin-top: 0px !important;
+}
+
+.profile-container{
+    margin-top: 24px;
+}
+
+.modal-detail-event .modal-content{
+    background: linear-gradient(180deg, #CCE0FF 0%, #FFFFFF 100%);
+    padding-top: 21px;
+}
+
+.modal-detail-event .modal-content .close{
+    margin-bottom: 9px;
+    text-align: end;
+}
+
+.form-detail-event{
+    margin-bottom: 16px;
+}
+
+.form-detail-event label{
+    font-size: 16px;
+    color: #797979;
+}
+
+.form-detail-event .form-control{
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+
+
+#event-starttime{
+    height: 40px;
+    width: 136px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+#event-endtime{
+    height: 40px;
+    width: 136px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+
+.btn-selesai{
+    background-color: #3D8AED;
+    border-radius: 8px;
+    width: 168px;
+    font-size: 24px;
+}
+
+.detail-tiket{
+    padding: 64px;
+}
+
+.judul-section{
+    display: flex !important;
+}
+
+.judul-section h3{
+    margin: 5px 0px 0px 24px;
+    text-align: center !important;
+    font-weight: 600 !important;
+    color: #3D3D3D;
+}
+
+.judul-section svg{
+    width: 35px;
+    height: 36px;
+    color: #3D3D3D;
+}
+
+.row-tiket{
+    margin: 0px;
+}
+
+.container-tiket{
+    padding: 0px !important;
+}
+
+.tiket{
+    width: 1152px;
+    height: 148px;
+    background: url('/src/img/background-tiket.svg');
+    margin-bottom: 32px;
+}
+
+@media (min-width:1360px) {
+    .tiket{
+        width: 100%;
+        object-fit: cover;
+        background: url('/src/img/tiket-1336px.svg') !important;
+    }
+}
+
+.row-keterangan-tiket{
+    padding: 32px 64px;
+}
+
+.row-keterangan-tiket h3{
+    font-weight: 400 !important;
+    color: black;
+}
+
+.ticket-ends .col-7{
+    margin-top: 12px;
+    padding: 0px 0px 0px 15px !important;
+}
+
+.ticket-ends .col-7 p{
+    color: #797979;
+    font-size: 18px;
+    margin: 8px 0px 0px 0px;    
+}
+
+.ticket-ends .col-5{
+    margin-top: 12px;
+    padding: 0px 0px 0px 15px !important;
+}
+
+.ticket-ends .col-5 p{
+    color: #797979;
+    font-size: 18px;
+    margin: 8px 0px 0px 0px;    
+}
+
+.harga-tiket{
+    font-size: 32px;
+}
+
+.button-action{
+    border-radius: 8px;
+    background: #F6F6F6;
+    color: #797979;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    margin-left: 16px;
+}
+
+.btn-edit-tiket{
+    border-radius: 8px;
+    background: #F6F6F6;
+    color: #797979;
+    border: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    margin-left: 16px;
+}
+
+.edit-ticket{
+    color: #797979 !important;
+}
+
+.edit-ticket:active{
+    color: #797979 !important;
+    background: #dedede !important;
+}
+
+.btn-edit-tiket .edit{
+    color: #797979 !important;
+}
+
+.btn-edit-tiket:hover{
+    background: #dedede;
+}
+
+.button-action:hover{
+    background: #dedede;
+}
+
+.btn-create-tiket{
+    color: white !important;
+    background: #3D8AED;
+    width: 200px;
+    margin: 32px 0px 0px 0px;
+    justify-content: center;
+    text-align:center;
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.modal-detail-tiket .modal-content{
+    background: linear-gradient(180deg, #CCE0FF 0%, #FFFFFF 100%);
+    padding-top: 21px;
+}
+
+.modal-detail-tiket .modal-content .close{
+    margin-bottom: 9px;
+    text-align: end;
+}
+
+.form-detail-tiket{
+    margin-bottom: 16px;
+}
+
+.form-detail-tiket label{
+    font-size: 16px;
+    color: #797979;
+}
+
+.form-check-label{
+    vertical-align:middle;
+}
+
+#tiketdatepickerstart{
+    height: 40px;
+    width: 136px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+#tiketdatepickerend{
+    height: 40px;
+    width: 136px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+#datetimepicker{
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+/* .input-harga{
+    margin-top: 8px;
+    padding: 8px !important;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+} */
+
+.container-harga p{
+    color: rgb(48, 46, 46);
+    font-size: 16px;
+    margin: 0px 8px 0px 0px;
+}
+
+.description{
+    margin-bottom: 24px;
+}
+
+.tiket-event-title-section{
+    margin-bottom: 24px !important;
+}
+
+.cke_1{
+    border-radius: 8px;
+    border: 1px solid #797979 !important;
+}
+
+.select-maximum{
+    background: #D5E6FF !important;
+    margin-top: 34px;
+    margin-bottom: 170px;
+}
+
+select {
+    border-radius: 8px;
+    text-align: left;
+    text-align-last: center;
+    height: 64px;
+    /* webkit*/
+  }
+  option {
+    justify-content: center !important;
+    text-align: center !important;
+    background: white !important;
+    text-align-last: center;
+    /* reset to left*/
+  }
+
+  .container-submit{
+      padding: 0px 64px 112px 64px;
+  }
+
+  .btn-buat-event{
+      width: 100%;
+      padding: 16px;
+      font-size: 24px;
+      background-color: #3D8AED;
+      color: white;
+      border-radius: 8px;
+  }
+
+  .container-description{
+      padding-bottom: 128px;
+  }
+
+  .select-category{
+      height: 40px;
+      text-align: left;
+      text-align-last: left;
+  }
+
+  .pilih-kategori{
+    text-align-last: left;
+  }
+
+  select.form-control {
+    -moz-appearance: none;
+     -webkit-appearance: none;
+     appearance: none;
+  }
+
+  .select-maximum{
+      background: #D5E6FF;
+      font-size: 18px;
+  }
+
+  .form-detail-event svg{
+      margin-left: -37px;
+      margin-bottom: 130px;
+  }
+
+  .datepicker{
+      width: 136px;
+      border-radius: 8px;
+      border: 1px solid #E0E0E0;
+      padding: 8px;
+  }
+
+  #ticket-price{
+      margin-top: 8px;
+      display: none;
+      background: #FFFFFF;
+      border: 1px solid #E0E0E0;
+      border-radius: 8px;
+  }
+#rp{
+    margin-top: 8px;
+    display: none;
+}
+
+#editTicket-price{
+    margin-top: 8px;
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.label-radio{
+    margin-left: 10px;
+}
+
+.form-check{
+    padding: 0px !important;
+}
+
+#editRp{
+    margin-top: 8px;
+    display: none;
+}
+
+.sub-total{
+    background: #F1F1F1;
+    height: 72px;
+    padding: 16px 64px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.sub-total .col{
+    height: 48px !important;
+}
+
+.sub-total h4,p{
+    margin: 0px !important;
+}
+
+.sub-total p{
+    font-size: 18px;
+}
+
+.sub-total .rp{
+    margin-top: 5px !important;
+}
+
+.sub-total input{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    border: 0px;
+    padding: 0px 20px 0px 5px;
+    background: transparent;
+    color: black;
+    width: 200px;
+    
+}
+
+.sub-total input:focus{
+    outline: none;
+}
+
+.buat-skrng{
+    color: #797979;
+}
+
+.button-beli{
+    padding: 8px !important;
+    width: 163px;
+    font-size: 16px;
+    background: #3D8AED !important;
+    border-radius: 8px !important;
+    color: white !important;
+}
+
+.button-beli:hover{
+    background: #326dba !important;
+}
+
+@media (min-width:1350px) {
+    .tiket{
+        width: 100%;
+        object-fit: cover;
+        background: url('/images/tiket-1336px.svg');
+    }
+}
+
+.modal-upload h4,p{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* negative flow */
+.container-modal-form{
+    position: relative;
+}
+
+.container-modal-form.success{
+    visibility: visible;
+    padding: 8px 0px !important;
+}
+
+.container-modal-form.error{
+    padding: 8px 0px;
+}
+
+.container-modal-form.error input{
+    border: 1px solid #ED3D3D;
+    padding-right: 40px;
+}
+
+.container-modal-form.error span{
+    display: block;
+    margin-top: 18px;
+}
+
+.container-modal-form.error small{
+    display: block;
+}
+
+/* .container-modal-form input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+} */
+
+.container-modal-form small{
+   display: none;
+    color: #ED3D3D;
+}
+
+.container-modal-form span{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 18px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ED3D3D;
+}
+
+.form-hidden{
+    background: transparent;
+    border: 0px;
+    height: 28;
+    font-size: 12px;
+    color: #3D8AED;
+    width: 292px;
+}
+
+.form-hidden-stock{
+    background: transparent;
+    border: 0px;
+    height: 28;
+    font-size: 12px;
+    color: black;
+    width: 30px;
+}
+
+.form-hidden-tanggal{
+    background: transparent;
+    border: 0px;
+    height: 28;
+    font-size: 18px;
+    width: 160px;
+    color: #797979;
+}
+
+.form-hidden-waktu{
+    background: transparent;
+    border: 0px;
+    height: 28;
+    font-size: 18px;
+    width: 50px;
+    color: #797979;
+}
+
+.form-hidden-name{
+    /* background: transparent; */
+    border: 0px;
+    height: 28;
+    font-size: 24px;
+    color: black !important;
+    width: 100%;
+}
+
+.end-container{
+    padding-left: 0px !important;
+    text-align: start !important;
+}
+
+/* .container-modal-form input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid #3D3D3D;
+}
+
+.container-modal-form input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+.container-modal-form input[type="radio"]:checked:before {
+    background: #3D3D3D;
+    
+}
+
+.container-modal-form input[type="radio"]:checked {
+  border-color:#3D3D3D;
+}
+
+.container-modal-form.error-radio input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid red;
+}
+
+.container-modal-form.error-radio input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+.container-modal-form.error-radio input[type="radio"]:checked:before {
+    background: #3D3D3D;
+    
+}
+
+.container-modal-form.error-radio input[type="radio"]:checked {
+  border-color:#3D3D3D;
+} */
+
